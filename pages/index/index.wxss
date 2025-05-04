@@ -1,0 +1,26 @@
+@import "../../template/index-template/index_template.wxss";
+
+page, .page, .page__bd {
+    height: 100%;
+}
+
+::-webkit-scrollbar {
+    width: 0;
+    height: 0;
+    color: transparent
+}
+
+.page__bd {
+    padding-bottom: 0;
+}
+
+.weui-tab__content {
+    padding-top: 50px;
+    text-align: center;
+    background-color: #fafafa;
+}
+
+.tab-view {
+    background-color: #fafafa;
+}
+

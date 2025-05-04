@@ -1,0 +1,25 @@
+.input-username {
+    border: 1px solid lightgrey;
+    height: 60rpx;
+    padding-left: 20rpx;
+    margin: 20rpx;
+    border-radius: 8rpx;
+    font-size: 25rpx;
+}
+
+.text-username{
+    display: flex;
+    margin-top:10rpx;
+    margin-left: 20rpx;
+    font-size: 25rpx;
+}
+
+.button-confirm{
+    font-size: 28rpx;
+    margin-top: 20rpx;
+    margin-left: 20rpx;
+    margin-right: 20rpx;
+    background-color: #00BCD4;
+    color: #f0f0f0;
+    height: 70rpx;
+}
