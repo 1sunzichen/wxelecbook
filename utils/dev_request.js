@@ -17,7 +17,28 @@ const MOCK_CONFIG = {
   GET: {
     '/books': {
       code: 10000,
-      data: [{id: 1, title: "Mock Book 1"}],
+      data: [
+        {
+          id: 1,
+          title: "凡人修仙传",
+          author: "忘语",
+          majorCate: "玄幻",
+          longIntro: "一个普通山村小子，偶然下进入到当地江湖小门派，成了一名记名弟子。他以这样身份，如何在门派中立足，如何以平庸的资质进入到修仙者的行列，从而笑傲三界之中！",
+          latelyFollower: 356000,
+          retentionRatio: 82.5,
+          cover:  "/image/dev.jpg"
+        },
+        {
+          id: 2,
+          title: "全职高手",
+          author: "蝴蝶蓝",
+          majorCate: "游戏",
+          longIntro: "网游荣耀中被誉为教科书级别的顶尖高手，因为种种原因遭到俱乐部的驱逐，离开职业圈的他寄身于一家网吧成了一个小小的网管，但是，拥有十年游戏经验的他，在荣耀新开的第十区重新投入了游戏...",
+          latelyFollower: 289000, 
+          retentionRatio: 91.2,
+          cover: "/cover/2.jpg"
+        }
+      ],
       msg: "GET Mock 数据"
     },
     '/classify': {
