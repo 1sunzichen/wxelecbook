@@ -87,7 +87,7 @@ Page({
         };
         dev_request.Get('/books', data, function (book) {
             book.data.forEach(function (item) {
-                item.cover = dev_request.ZHUISHU_URL + item.cover
+                // item.cover = dev_request.ZHUISHU_URL + item.cover
                 bookInfo.push(item)
             })
             that.setData({
